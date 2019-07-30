@@ -1,6 +1,5 @@
-## Como Você pode Colaborar
+# Antena CPS
 
-Se você está a fim de ajudar no desenvolvimento, sempre disponibilizaremos "*bugs*" na aba de **issues do repositorio**, bem como *features* no kanban disponivel em **Projects**, no projeto *Open Source*.
+Este projeto tem como premissa a criação da maior e melhor plataforma de conexão entre alunos e o ecossistema.
 
-O Front-End do projeto está sendo construido em Angular CLI e o Back-End em Python e Flask!
-Saiba mais sobre o Back-end clicando [aqui](https://github.com/InovaCPS/back-antena-cps/blob/master/README.md)
+A fim de virar uma comunidade, decidimos deixar algumas features disponíveis para que alunos e/ou interessados em colaborar possam ajudar no desenvolvimento, adquirindo experiencia, podendo usar sua contribuição como portfólio!
