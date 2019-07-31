@@ -1,19 +1,12 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <!-- Meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        
+    <head>        
         <!-- Bootstrap CSS -->
         <link type="text/css" rel="stylesheet" href="<%=request.getContextPath()%>/res/styles/styles_home.css">
         
-        
         <title>Antena CPS</title>
         <link rel="shortcut icon" href="<%=request.getContextPath()%>/res/images/favicon.ico" />
-        
     </head>
     <body>
         
@@ -44,4 +37,7 @@
         <%@include file="WEB-INF/jspf/header_footer/footer.jspf"%>
         
     </body>
+    
+    <%@include file="WEB-INF/jspf/imports.jspf" %>
+    
 </html>

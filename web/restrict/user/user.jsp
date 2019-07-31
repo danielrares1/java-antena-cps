@@ -2,30 +2,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-        <script src="https://apis.google.com/js/platform.js" async defer></script>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
-        
         <!-- Bootstrap CSS -->
         <link type="text/css" rel="stylesheet" href="<%=request.getContextPath()%>/res/styles/styles_profile.css">
-        
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Perfil - Antena CPS</title>
         <link rel="shortcut icon" href="<%=request.getContextPath()%>/res/images/favicon.ico" />
     </head>
     <body>
+        
+        <!-- Header Profile -->
+        <%@include file="../../WEB-INF/jspf/header_footer/header_profile.jspf" %>
+        
         <div class="background" id="border">
             <app-profile-navbar style="background-color: transparent"></app-profile-navbar>
             <div class="container" style="margin-top: 250px">
@@ -84,7 +70,7 @@
                   </div>
                 </div>
               </div>
-
+              
               <!--P O R T F O L I O-->
 
               <div class="row" id="portfolio">
@@ -267,13 +253,13 @@
               <div class="padding"></div>
               <button hidden id="openModalFirst" data-toggle="modal" data-target="#modalFirst"></button>
             </div>
-            <footer class="perfil-footer">
-                <div class="footer-copyright text-muted text-center py-3">
-                  <a data-toggle="modal" href="#TermosDeUso2" class="text-muted">Termos de Uso</a> | <a data-toggle="modal"
-                    href="#PoliticaDP2" class="text-muted">Política de Privacidade e Segurança </a> | INOVA CPS - Centro Paula Souza
-                  - 2019 ®
-                </div>
-             </footer>
+            
+            <!-- Footer -->
+            <%@include file="../../WEB-INF/jspf/header_footer/footer_profile.jspf" %>
+            <%@include file="../../WEB-INF/jspf/modals/profile/student.jspf" %>
           </div>
     </body>
+    
+    <%@include file="../../WEB-INF/jspf/imports.jspf" %>
+    
 </html>
