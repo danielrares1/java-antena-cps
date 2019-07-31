@@ -1,0 +1,211 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29/07/2019, 15:35:00
+    Author     : julio.pereira
+*/
+
+.fundo {
+    background-image: url('../images/fundo.jpg');
+    background-size: cover;
+    height: 450px;
+    margin-top: 2%;
+}
+
+#home {
+    color: white; 
+    display: inline; 
+    font-size: 25px;
+    margin-left: 40%;
+}
+
+.Entrar {
+    margin-top: 17%;
+    margin-left: 42%;
+}
+
+#openModal{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+h1 {
+    padding: 5px 5px 0% 0%;
+}
+
+#capt {
+    color: white; 
+    display: inline;
+    margin: 11%;
+}
+
+#propg{
+    color: white; 
+    display: inline;
+    margin-left: 14%;
+}
+
+#anten {
+    margin-left: 5px;
+    color: red; 
+    display: inline
+}
+
+#background {
+    padding: 10px;
+    border: 2px black;
+    margin-left: -1rem;
+    background-size: cover;
+    background-image: url('../images/background.png');
+}
+
+#brasao{
+    max-width: 220px ;
+    width: 100% ;
+    height: auto; 
+    position: relative;
+    left: 68rem;
+}
+
+
+#release{
+    text-align: center;
+}
+
+a #release{
+    color: inherit;
+}
+
+input[type=submit] {
+    width: 45%;
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius:0px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: red;
+}
+
+.camposform {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 0px;
+    box-sizing: border-box;
+}
+
+#center {
+    text-align: center;
+}
+
+#fbcolor {
+    border-radius: 50%;
+}
+
+ #ggcolor {
+    background-color: red;
+    color:white;
+    border-radius: 52%;
+    margin-left: 5px;
+}
+  
+.modal-content {
+    -webkit-border-radius: 30px!important;
+    -moz-border-radius: 30px!important;
+    border-radius: 30px!important; 
+}
+
+#username {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    width: 85%;
+    margin-left: 5%
+}
+
+#password {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    width: 85%;
+    margin-left: 5%;
+}
+
+#labelEmail {
+    margin-left: 8%;
+    font-size: 15px;
+}
+
+#labelSenha {
+    margin-left: 8%;
+    font-size: 15px;  
+}
+
+#btnEntrar {
+    width: 140px;
+    margin-top: 5%;
+    margin-left: -82%;
+    font-size: 15px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+#ouAcesse {
+    margin-left: 70%;
+}
+
+#iconF {
+    margin-left: 70%;
+    width: 1px;
+    height: 1px;
+    margin-top: -45px;
+}
+
+#iconL {
+    margin-left: 84%;
+    width: 1px;
+    height: 1px;
+    margin-top: -1px
+}
+
+#iconG {
+    margin-left: 77%;
+    width: 1px;
+    height: 1px;
+    margin-top: -1px;
+}
+
+#primeiroAcesso {
+    margin-left: 22%;
+    margin-top: 5%
+}
+
+#iconC {
+    margin-left: 91%;
+    width: 1px;
+    height: 1px;
+}
+
+#googleImage:hover {
+    cursor: pointer;
+}
+
+#facebookImage:hover {
+    cursor: pointer;
+}
+
+#linkedinImage:hover {
+    cursor: pointer;
+}

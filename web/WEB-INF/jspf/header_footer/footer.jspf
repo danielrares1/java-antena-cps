@@ -1,0 +1,13 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+<div class="bg-light">
+  <div class="mx-auto">
+    <a class="navbar-brand" href="http://www.saopaulo.sp.gov.br/" target="__blank">
+        <img id="brasao" src="<%= request.getContextPath() %>/res/images/brasao_cps_gov.png" alt="CPS Governo do Estado de São Paulo">
+    </a>
+  </div>
+  <div id="release">
+    <a href=""><small class="text-muted">v.24.04.19</small></a>
+  </div>
+</div>
