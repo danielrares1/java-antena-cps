@@ -1,0 +1,82 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+<div class="row" id="desafios">
+    <div id="port" class="row" style="margin-left: 15px; margin-top:25px;">
+        <h4 style="color: #72A5FF;"><b>Desafios</b></h4>
+    </div>
+</div>
+<div class="row">
+    <div class="col" style="max-width: 930px;">
+        <div id="carousel-desafio" class="carousel slide" data-ride="carousel" data-interval="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="max-width: 50%;">
+                    <div class="container-desafio">
+                        <img src="<%= request.getContextPath()%>/res/images/profile/imgTeste.jpg" alt="Image" class="image-desafio" style="max-width: 100%;">
+                        <div class="text-image">Casco de navio com mínima resistência</div>
+                        <div class="middle-desafio">
+                            <a href="#0" data-toggle="modal" data-target=""><img class="btn-desafio" style="filter: invert(1);"
+                                src="<%= request.getContextPath()%>/res/images/profile/search.svg" alt="Image"></a><br />
+                            <a href="#0" data-toggle="modal" data-target=""><img class="btn-desafio" style="filter: invert(1);"
+                                src="<%= request.getContextPath()%>/res/images/profile/favorite.svg" alt="Image"></a><br />
+                            <a href="#0" data-toggle="modal" data-target="#EnviarMensagem"><img class="btn-desafio"
+                                style="filter: invert(1);" src="<%= request.getContextPath()%>/res/images/profile/bubble.svg" alt="Image"></a><br />
+                            <a href="#0" data-toggle="modal" data-target=""><img class="btn-desafio" style="filter: invert(1);"
+                                src="<%= request.getContextPath()%>/res/images/profile/calendar.svg" alt="Image"></a><br />
+                            <a href="#0" data-toggle="modal" data-target="#MentorDesafio"><img class="btn-desafio"
+                                style="filter: invert(1);" src="<%= request.getContextPath()%>/res/images/profile/personAdd.svg" alt="Image"></a><br />
+                            <a href="#0" data-toggle="modal" data-target="#CompDesafio"><img class="btn-desafio"
+                                style="filter: invert(1);" src="<%= request.getContextPath()%>/res/images/profile/share.svg" alt="Image"></a><br />
+                            <a href="#0" data-toggle="modal" data-target=""><img class="btn-desafio" style="filter: invert(1);"
+                                src="<%= request.getContextPath()%>/res/images/profile/star.svg" alt="Image"></a><br />
+                            <a href="#0" data-toggle="modal" data-target="#Tchun"><img class="btn-desafio"
+                                style="transform: rotate(270deg); filter: invert(1);" src="<%= request.getContextPath()%>/res/images/profile/wifi.svg" alt="Image"></a><br />
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" style="max-width: 50%;">
+                    <div class="container-desafio">
+                        <img src="<%= request.getContextPath()%>/res/images/profile/imgTeste.jpg" alt="Image" class="image-desafio">
+                        <div class="text-image">Aplicativo para estímulos psicomotores</div>
+                        <div class="middle-desafio">
+                            <a href="#0" data-toggle="modal" data-target=""><img class="btn-desafio" style="filter: invert(1);"
+                                src="<%= request.getContextPath()%>/res/images/profile/search.svg" alt="Image"></a><br />
+                            <a href="#0" data-toggle="modal" data-target=""><img class="btn-desafio" style="filter: invert(1);"
+                                src="<%= request.getContextPath()%>/res/images/profile/favorite.svg" alt="Image"></a><br />
+                            <a href="#0" data-toggle="modal" data-target="#EnviarMensagem"><img class="btn-desafio"
+                                style="filter: invert(1);" src="<%= request.getContextPath()%>/res/images/profile/bubble.svg" alt="Image"></a><br />
+                            <a href="#0" data-toggle="modal" data-target=""><img class="btn-desafio" style="filter: invert(1);"
+                                src="<%= request.getContextPath()%>/res/images/profile/calendar.svg" alt="Image"></a><br />
+                            <a href="#0" data-toggle="modal" data-target="#MentorDesafio"><img class="btn-desafio"
+                                style="filter: invert(1);" src="<%= request.getContextPath()%>/res/images/profile/personAdd.svg" alt="Image"></a><br />
+                            <a href="#0" data-toggle="modal" data-target="#CompDesafio"><img class="btn-desafio"
+                                style="filter: invert(1);" src="<%= request.getContextPath()%>/res/images/profile/share.svg" alt="Image"></a><br />
+                            <a href="#0" data-toggle="modal" data-target=""><img class="btn-desafio" style="filter: invert(1);"
+                                src="<%= request.getContextPath()%>/res/images/profile/star.svg" alt="Image"></a><br />
+                            <a href="#0" data-toggle="modal" data-target="#Tchun"><img class="btn-desafio"
+                                style="transform: rotate(270deg); filter: invert(1);" src="<%= request.getContextPath()%>/res/images/profile/wifi.svg" alt="Image"></a><br />
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" style="max-width: 50%;">
+                    <div class="container-desafio">
+                        <img src="<%= request.getContextPath()%>/res/images/profile/imgTeste.jpg" alt="Image" class="image-desafio img-fluid d-block" style="max-width: 100%;">
+                        <div class="text-image">IMAGEM 3</div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel-desafio" style="width: 20px; height: 20px; 
+                margin-top: 15%; margin-left: -20px;" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-desafio" style="width: 20px; height: 20px;
+                margin-top: 15%; margin-right: -20px;" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </div>
+    <button type="button" class="btn-blue" data-toggle="modal" data-target="#modalProject"
+        style="max-height:100%!important;max-width:200px;margin-left: 15px;">+</button>
+</div>

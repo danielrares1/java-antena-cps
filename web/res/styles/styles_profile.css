@@ -8,7 +8,7 @@ and open the template in the editor.
     Author     : julio.pereira
 */
 
-        /*CSS profile*/
+        /* CSS profile */
 .background {
     background-image: url('../images/profile/background_4K.jpg');
     width: 100%;
@@ -147,21 +147,23 @@ and open the template in the editor.
 
 .modal-top {
     background-color: #0069B5; 
-    border-top-left-radius: 30px; 
-    border-top-right-radius: 30px;
+    border-top-left-radius: 30px!important; 
+    border-top-right-radius: 30px!important;
 }
 
-.btn-x {
+#btn-x {
     position: absolute; 
     right: -4%; 
     margin-top: -5%; 
     border-radius: 50%;
+    -moz-border-radius: 50%;	
+    -webkit-border-radius: 50%;
     width: 62px; 
     height: 62px;
     box-shadow: -1px 1px 9px black;
 }
 
-.btn-cancel {
+#btn-cancel {
     width: 125px; 
     height: 55px; 
     border-radius: 20px; 
@@ -172,7 +174,7 @@ and open the template in the editor.
     right: 20%;
 }
 
-.btn-send {
+#btn-send {
     background-color: #00B59C; 
     color: white; 
     width: 125px; 
@@ -340,7 +342,7 @@ html {
     background-position-y: 10rem;
 }
 
-        /*CSS navbar*/
+        /* CSS navbar */
 #iconHeader {
     max-width: 26px;
     max-height: 26px;
@@ -374,7 +376,7 @@ html {
     flex-grow: 2;
 }
 
-        /*CSS student*/
+        /* CSS student */
 #fundo {
   margin-top: 8%;
   background-size: cover;
@@ -548,3 +550,201 @@ input[type=range]:focus::-ms-fill-lower {
 input[type=range]:focus::-ms-fill-upper {
   background: rgba(51, 255, 132, 0.46);
 }
+
+        /* CSS project */
+body {margin:2rem;}
+
+.modal-dialog {
+      max-width: 800px;
+      margin: 30px auto;
+  }
+
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
+
+.icons-edit{
+  margin-top: 40px;
+}
+
+.c-icons{
+  color: black;
+}
+  
+.modal-content{
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+  }
+
+#btn-recursos {
+    width: 150px;
+    height: 90px;
+    border-radius: 25px;
+    text-align: center;
+  }
+
+.form-control {
+    border-radius: 15px;  
+}
+
+#button1 {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-left: -1.8%;
+} 
+
+  #tituloImagem{
+    width: 90%;
+    margin-left: 5%;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+  }
+
+  #legendaImagem{
+    width: 90%;
+    margin-left: 5%;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+  }
+
+  .btnSalvar{
+    width: 140px;
+    margin-right: 20%;
+      font-size: 15px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+    }
+
+  #btnMaisRecursos{
+    width: 140px;
+    margin-right: 20%;
+    font-size: 15px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+  }
+
+  #btnContinuar{
+    width: 200px;
+    margin-right: 20%;
+    font-size: 20px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    margin-left: 60%;
+    margin-bottom: 5%;
+  }
+
+  #btnFinalizar{
+    width: 200px;
+    margin-right: 20%;
+    font-size: 20px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    margin-top: 25%;
+    margin-left: 20%;
+    margin-bottom: -5%
+  }
+
+#adicionarImagem:hover{
+  cursor: pointer;
+}
+
+#recursoImagem {
+  overflow: auto;
+}
+
+div.relative {
+  position: relative;
+  width: 120px;
+} 
+
+div.absolute {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 25px;
+  height: 38px;
+}
+
+div.relative-arquivos {
+  position: relative;
+  width: 120px;
+} 
+
+div.absolute-arquivos {
+  position: absolute;
+  bottom: 0;
+  right: 4px;
+  width: 25px;
+  height: 46px;
+}
+
+div.absolute-imagem{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 12px;
+  height: 18px;
+}
+
+div.relative-imagem{
+  position: relative;
+  width: 60px;
+}
+
+div.relative-midia {
+  position: relative;
+  width: 160px;  
+} 
+
+div.absolute-midia {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 25px;
+  height: 45px;
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; } 
+  }
+  @-moz-keyframes fadeIn {
+  0% { opacity: 0;}
+  100% { opacity: 1; }
+  }
+  @-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  }
+  @keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  }
+
+.fadeIn {
+  -webkit-animation: fadeIn 1s ease-in-out;
+  -moz-animation: fadeIn 1s ease-in-out;
+  -o-animation: fadeIn 1s ease-in-out;
+  animation: fadeIn 1s ease-in-out;
+  }

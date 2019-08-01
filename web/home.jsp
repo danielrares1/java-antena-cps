@@ -2,11 +2,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>        
-        <!-- Bootstrap CSS -->
-        <link type="text/css" rel="stylesheet" href="<%=request.getContextPath()%>/res/styles/styles_home.css">
-        
         <title>Antena CPS</title>
         <link rel="shortcut icon" href="<%=request.getContextPath()%>/res/images/favicon.ico" />
+        
+        <!-- Bootstrap CSS -->
+        <link type="text/css" rel="stylesheet" href="<%=request.getContextPath()%>/res/styles/styles_home.css">
     </head>
     <body>
         
