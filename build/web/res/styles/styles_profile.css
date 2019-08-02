@@ -412,7 +412,7 @@ select {
 }
 
 #unidade {
-  margin-left: -30%;
+  margin-left: 0%;
 }
 
 #rg {
@@ -561,8 +561,8 @@ body {margin:2rem;}
 
 .close {
   position:absolute;
-  right:-30px;
-  top:0;
+  right: 15px;
+  top: 15px;
   z-index:999;
   font-size:2rem;
   font-weight: normal;
@@ -581,7 +581,7 @@ body {margin:2rem;}
 .modal-content{
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
-    border-radius: 30px;
+    border-radius: 30px!important;
   }
 
 #btn-recursos {
@@ -589,10 +589,15 @@ body {margin:2rem;}
     height: 90px;
     border-radius: 25px;
     text-align: center;
+    background: #DDDDDD;
   }
 
+#btn-recursos:hover {
+    background-color: #343a40;
+}
+  
 .form-control {
-    border-radius: 15px;  
+    border-radius: 15px!important;  
 }
 
 #button1 {
@@ -624,14 +629,14 @@ body {margin:2rem;}
     border-radius: 30px;
   }
 
-  .btnSalvar{
-    width: 140px;
-    margin-right: 20%;
-      font-size: 15px;
-      -webkit-border-radius: 30px;
-      -moz-border-radius: 30px;
-      border-radius: 30px;
-    }
+.btnSalvar{
+    width: 140px!important;
+    margin-right: 20%!important;
+    font-size: 15px!important;
+    -webkit-border-radius: 30px!important;
+    -moz-border-radius: 30px!important;
+    border-radius: 30px!important;
+}
 
   #btnMaisRecursos{
     width: 140px;

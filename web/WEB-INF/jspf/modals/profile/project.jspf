@@ -41,7 +41,7 @@
             </div>
             <div class="form-group col-md-6">
               <label for="">Descrição do Projeto</label>
-              <textarea class="form-control" name="descricao" id="" cols="60" rows="7"></textarea>
+              <textarea class="form-control" name="descricao" id="" cols="60" rows="7" resize="none"></textarea>
             </div>
           </div>
         </form>
@@ -66,7 +66,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <div> <!--*ngFor='let coop of coops; let i = index' class="form-row" style="padding: 20px;"-->
+        <div class="form-row" style="padding: 20px;"> <!--*ngFor='let coop of coops; let i = index' class="form-row" style="padding: 20px;"-->
           <div class="form-group col-md-6">
             <label for="">Coop(s)</label>
             <input id="coop" name="coop" class="form-control" placeholder="Coop" placeholder="">
@@ -131,7 +131,7 @@
         <h5 class="modal-title" id="exampleModalLabel">RECURSOS ADICIONAIS</h5>
         <button type="button" class="close" data-dismiss="modal" data-toggle="modal" data-target="#modalProject"
           aria-label="Close">
-          <span aria-hidden="true" id="close-modal-resources" style="font-size: 15px">X</span>
+          <span aria-hidden="true" id="close-modal-profile" style="font-size: 15px"> VOLTAR</span>
         </button>
       </div>
       <div class="modal-body" style="text-align: center;">
@@ -195,7 +195,7 @@
         <h5 class="modal-title" id="exampleModalLabel">CADASTRO DE TEXTO</h5>
         <button type="button" class="close" data-dismiss="modal" data-toggle="modal" data-target="#modalResources"
           aria-label="Close">
-          <span aria-hidden="true" id="close-modal-resources" style="font-size: 15px">X</span>
+          <span aria-hidden="true" id="close-modal-resources" style="font-size: 15px"> VOLTAR</span>
         </button>
       </div>
       <div class="modal-body" style="text-align: left;">
@@ -249,7 +249,7 @@
         <div class="modal-content">
             <button type="button" class="close" data-toggle="modal" data-dismiss="modal" data-target="#modalResources"
                 style="margin-left: 85%;margin-top: 1%" aria-label="Close">
-                <span aria-hidden="true" style="font-size: 10px">X</span></button> 
+                <span aria-hidden="true" style="font-size: 10px"> VOLTAR</span></button> 
             <h4 class="modal-title" id="imagemlabel1" style="margin-left: 5%">CADASTRO DE IMAGEM</h4>
             <h5 class="modal-title" id="imagemlabel2" style="margin-left: 5%">Escolha as imagens que melhor
                 caracterizam o projeto</h5><br/>
@@ -331,7 +331,7 @@
         <h5 class="modal-title" id="exampleModalLabel">CADASTRO DE CÓDIGOS</h5>
         <button type="button" class="close" data-dismiss="modal" data-toggle="modal" data-target="#modalResources"
           aria-label="Close">
-          <span aria-hidden="true" id="close-modal-resources" style="font-size: 15px">Voltar</span>
+          <span aria-hidden="true" id="close-modal-resources" style="font-size: 15px"> VOLTAR</span>
         </button>
       </div>
       <div class="modal-body" style="text-align: left;">
@@ -388,7 +388,7 @@
         <h5 class="modal-title" id="exampleModalLabel">CADASTRO DE MÍDIA</h5>
         <button type="button" class="close" data-dismiss="modal" data-toggle="modal" data-target="#modalResources"
           aria-label="Close">
-          <span aria-hidden="true" id="close-modal-resources" style="font-size: 15px">X</span>
+          <span aria-hidden="true" id="close-modal-resources" style="font-size: 15px"> VOLTAR</span>
         </button>
       </div>
       <div class="modal-body" style="text-align: left;">
@@ -486,7 +486,7 @@
         <h5 class="modal-title" id="exampleModalLabel">CADASTRO DE ARQUIVOS</h5>
         <button type="button" class="close" data-dismiss="modal" data-toggle="modal" data-target="#modalResources"
           aria-label="Close">
-          <span aria-hidden="true" id="close-modal-resources" style="font-size: 15px">Voltar</span>
+          <span aria-hidden="true" id="close-modal-resources" style="font-size: 15px"> VOLTAR</span>
         </button>
       </div>
       <div class="modal-body" style="text-align: left;">
@@ -562,7 +562,7 @@
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">ADICIONAR DETALHES</h5><br>
         <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-          <span aria-hidden="true">&times;</span>
+          <span aria-hidden="true" id="close-modal-resources" style="font-size: 15px"> VOLTAR</span>
         </button>
       </div>
       <div class="modal-body">
@@ -632,7 +632,7 @@
   <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
         <button type="button" class="close" data-toggle="modal" data-dismiss="modal" data-target="#modalResources" style="margin-left: 85%;margin-top: 1%" aria-label="Close">
-        <span aria-hidden="true" style="font-size: 10px"> <u>< VOLTAR</u></span>
+        <span aria-hidden="true" id="close-modal-resources" style="font-size: 15px"> VOLTAR</span>
         </button>
         <div class="modal-body">
         <h4 class="modal-title" id="capalabel1" style="margin-left: 5%">CAPA DO PROJETO</h4>
