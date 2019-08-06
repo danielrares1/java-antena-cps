@@ -33,7 +33,7 @@
                 </div>
                 <div class="col-md-4" id="profile">
                     <div class="profile-name" id="name">
-                        <h1>Nome Perfil teste</h1>
+                        <h1>Nome Perfil</h1>
                     </div>
                     <div id="profile-image">
                         <img id="profile-pic" src="<%= request.getContextPath()%>/res/images/profile/profilePic.jpg" alt="" style="border: #72A5FF solid;">

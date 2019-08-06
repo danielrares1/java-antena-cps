@@ -1,9 +1,6 @@
 <%-- any content can be specified here e.g.: --%>
 <%@ page pageEncoding="UTF-8" %>
 
-
-
-<!--                                    Compartilhar desafio                                    -->
 <div class="modal fade" id="CompDesafio" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
   aria-hidden="true" data-backdrop="static" data-keyboard="false">
   <div class="modal-dialog modal-dialog-centered" role="document">
@@ -78,10 +75,6 @@
   </div>
 </div>
 
-
-
-
-<!--                                                Deu Tchun                                   -->
 <div class="modal fade" id="Tchun" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"
   data-backdrop="static" data-keyboard="false">
   <div class="modal-dialog modal-dialog-centered" role="document">
@@ -265,10 +258,6 @@
   </div>
 </div>
 
-            
-            
-
-<!--                                    Termos de Uso (Challenges)                                   -->
 <div class="modal fade " id="TermosDeUso" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
   aria-hidden="true" data-backdrop="static" data-keyboard="false">
   <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
@@ -311,10 +300,6 @@
   </div>
 </div>
 
-
-
-
-<!--                                          Termos de Uso (Footer)                                    -->
 <div class="modal fade " id="TermosDeUso2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
   aria-hidden="true" data-backdrop="static" data-keyboard="false">
   <div class="modal-dialog modal-xl" role="document">
@@ -354,10 +339,6 @@
   </div>
 </div>
 
-
-
-
-<!--                                       Termos de Política e Privacidade(Challenges)                             -->
 <div class="modal fade " id="PoliticaDP" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
   aria-hidden="true" data-backdrop="static" data-keyboard="false">
   <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
@@ -400,12 +381,6 @@
   </div>
 </div>
 
-
-
-
-
-
-<!--                                           Termos de Política e Privacidade(Footer)                            -->
 <div class="modal fade" id="PoliticaDP2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
   aria-hidden="true" data-backdrop="static" data-keyboard="false">
   <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
@@ -445,10 +420,6 @@
   </div>
 </div>
 
-
-
-
-<!--                                     Solicitação de Mentoria                                        -->
 <div class="modal fade" id="MentorDesafio" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
   aria-hidden="true" data-backdrop="static" data-keyboard="false">
   <div class="modal-dialog modal-dialog-centered" role="document">
@@ -537,11 +508,6 @@
   </div>
 </div>
 
-
-
-
-
-<!--                                        Enviar Mensagem                                             -->
 <div class="modal fade" id="EnviarMensagem" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
   aria-hidden="true" data-backdrop="static" data-keyboard="false">
   <div class="modal-dialog modal-dialog-centered" role="document">

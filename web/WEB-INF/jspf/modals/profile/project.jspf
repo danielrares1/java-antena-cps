@@ -154,7 +154,7 @@
                 data-target="#modalMidias"><b>Mídias</b></button>
             </div>
             <div class="col-sm-3">
-              <button type="button" class="btn-outline-dark" id="btn-recursos" ><b>Documentos</b></button>
+              <button type="button" class="btn-outline-dark" id="btn-recursos"><b>Documentos</b></button>
             </div>
           </div>
           <br /><br />
@@ -187,13 +187,6 @@
   </div>
 </div>
 
-
-
-
-
-
-
-<!--                                            Texto                                                       -->
 <div class="modal fade" id="modalResText" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
   aria-hidden="true" data-backdrop="static" data-keyboard="false">
   <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable" role="document">
@@ -251,11 +244,6 @@
   </div>
 
 
-
-
-
-
-<!--                                            Imagem                                              -->
 <div class="modal fade" id="modalResImg" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
@@ -335,12 +323,6 @@
   </div>
 </div>
 
-
-
-
-
-
-<!--                                                Códigos                                                 -->
 <div class="modal fade" id="modalResCodes" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
   aria-hidden="true" data-backdrop="static" data-keyboard="false">
   <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable" role="document">
@@ -398,12 +380,6 @@
   </div>
 </div>
 
-
-
-
-
-
-<!--                                        Mídias                                          -->
 <div class="modal fade" id="modalMidias" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
   aria-hidden="true" data-backdrop="static" data-keyboard="false">
   <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable " role="document">
@@ -502,12 +478,6 @@
 </div>
 
 
-
-
-
-
-
-<!--                                         Arquivos                                               -->  
 <div class="modal fade" id="modalArquivos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
   aria-hidden="true" data-backdrop="static" data-keyboard="false">
   <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable" role="document">
@@ -586,12 +556,6 @@
   </div>
 </div>
 
-
-
-
-
-
-<!--                                                Detalhes                                                -->
 <div class="modal fade" id="modalDetails" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered" role="document">
     <div class="modal-content">
@@ -664,11 +628,6 @@
   </div>
 </div>
 
-
-
-
-
-<!--                                        Capa                                        -->
 <div class="modal fade" id="modalResCapa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
   <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
