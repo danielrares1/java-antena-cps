@@ -63,6 +63,13 @@ h1 {
     background-image: url('../images/background.png');
 }
 
+#background-cadastro{
+    padding: 10px;
+    border: 2px black;
+    background-size: cover;
+    background-image: url('../images/background.png');
+}
+
 #brasao{
     max-width: 220px ;
     width: 100% ;
@@ -164,11 +171,45 @@ input[type=submit]:hover {
 #btnEntrar {
     width: 140px;
     margin-top: 5%;
-    margin-left: -82%;
+    margin-left: -39%;
     font-size: 15px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
+}
+
+.register {
+    border-radius: 30px;
+    background-color: white;
+    padding: 2% 15% 2% 15%;
+    margin: 11% 7%;
+}
+
+.icons-register {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70%;
+    margin-top: -4%;
+}
+ 
+#palavras {
+  margin-left: 52%;
+  margin-top: -68px;
+}
+
+#icon1 {
+    padding: 0.5%;
+}
+
+#icon2 {
+  margin-left: 96%;
+  width: 1px;
+  height: 1px;
+}
+
+#return {
+  margin-right: 700px;
+  font-size: 3px;
 }
 
 #ouAcesse {
@@ -197,7 +238,7 @@ input[type=submit]:hover {
 }
 
 #primeiroAcesso {
-    margin-left: 22%;
+    margin-left: 25%;
     margin-top: 5%
 }
 

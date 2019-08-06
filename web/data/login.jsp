@@ -12,7 +12,7 @@ function loginTeste() {
         <div class="modal-content">
             <div>
                 <h5 class="modal-title" id="exampleModalLongTitle" style="margin-left: 16%; 
-                    margin-top: 5%"><b>BEM VINDO DE VOLTA, ANTENADX!</b></h5>
+                    margin-top: 5%"><b>BEM-VINDO DE VOLTA, ANTENADX!</b></h5>
                 <h6 class="modal-title" id="exampleModalLongTitle2" 
                     style="margin-left: 38%">Acesse sua conta</h6>
             </div>
@@ -28,7 +28,7 @@ function loginTeste() {
                     <input type="password" id="password" class="camposform" name="password"/>
                     <label id="ouAcesse"> Ou acesse: </label> 
                     <button id="btnEntrar" class="btn btn-lg btn-danger" type="button" 
-                        onClick="loginTeste()"><b>ENTRAR</b>
+                        onClick="loginTeste()" style="margin-left: -82%;"><b>ENTRAR</b>
                     </button> 
                     <br/>
                     <a data-toggle="modal" id="clickPassword" data-target="#passwordModal" data-dismiss="modal"
@@ -47,7 +47,7 @@ function loginTeste() {
                     </div>
                     <br/><br/>
                     <div id="primeiroAcesso">
-                        <p>Primeiro acesso? Cadastre-se <a href="/#/cadastro">aqui</a>.</p>
+                        <p>Primeiro acesso? Cadastre-se <a href="/data/register.jsp">aqui</a>.</p>
                     </div>
                     <div>
                         <button id="close-modal-login" type="text" class="close" data-dismiss="modal"
