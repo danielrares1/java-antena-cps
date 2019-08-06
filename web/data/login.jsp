@@ -3,7 +3,7 @@
 
 <script type="text/javascript">
 function loginTeste() {
-    location.href="/AntenaCPS/restrict/user/user.jsp";
+    location.href="/restrict/user/user.jsp";
 }
 </script>
 
