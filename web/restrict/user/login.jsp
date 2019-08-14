@@ -47,7 +47,7 @@ function loginTeste() {
                     </div>
                     <br/><br/>
                     <div id="primeiroAcesso">
-                        <p>Primeiro acesso? Cadastre-se <a href="/data/register.jsp">aqui</a>.</p>
+                        <p>Primeiro acesso? Cadastre-se <a href="/restrict/user/register.jsp">aqui</a>.</p>
                     </div>
                     <div>
                         <button id="close-modal-login" type="text" class="close" data-dismiss="modal"

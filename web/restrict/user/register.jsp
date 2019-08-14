@@ -17,7 +17,7 @@
     <body>
         
     <!-- Header -->
-    <%@include file="../WEB-INF/jspf/header_footer/header.jspf"%>
+    <%@include file="../../WEB-INF/jspf/header_footer/header.jspf"%>
         
     <div id="background-cadastro" class="container-fluid">
         <div class="register" style="text-align: center">
@@ -97,5 +97,6 @@
     </div>
     <%@include file="login.jsp" %>
     </body>
-    <%@include file="../WEB-INF/jspf/imports.jspf" %>
+    <%@include file="../../WEB-INF/jspf/imports.jspf" %>
 </html>
+

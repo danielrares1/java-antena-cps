@@ -31,7 +31,7 @@
         </div> 
               
         <!-- Login -->
-        <%@include file="data/login.jsp"%>
+        <%@include file="restrict/user/login.jsp"%>
         
         <!-- Footer -->
         <%@include file="WEB-INF/jspf/header_footer/footer.jspf"%>
