@@ -1,3 +1,5 @@
+<%@page import="java.sql.*"%>
+<%@page import="br.gov.sp.cps.antena.conexao.Usuario"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -33,7 +35,11 @@
                 </div>
                 <div class="col-md-4" id="profile">
                     <div class="profile-name" id="name">
-                        <h1>Nome Perfil teste</h1>
+                        <%try {%>
+                        <%for (Usuario u: Usuario.getUser()) {%>
+                            <h1><%= u.getNome() %> <%=u.getSobrenome()%></h1>
+                            <%}%>
+                        <%} catch (SQLException e) {}%>
                     </div>
                     <div id="profile-image">
                         <img id="profile-pic" src="<%= request.getContextPath()%>/res/images/profile/profilePic.jpg" alt="" style="border: #72A5FF solid;">
