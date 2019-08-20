@@ -30,6 +30,8 @@
             <h1 id="propg">propagando para os</h1><h1 id="anten">antenados</h1><br/><br/>
         </div> 
               
+        <a href="<%= request.getContextPath()%>/restrict/user/test.jsp" > Test page </a>
+        <
         <!-- Login -->
         <%@include file="restrict/user/login.jsp"%>
         
